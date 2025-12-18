@@ -1,6 +1,6 @@
 ﻿namespace InternalAPI;
 
-public record ExampleReturnRecord(string content, int arg2, int arg3)
+public record ExampleReturnRecord(string content)
 {
 }
 
