@@ -7,7 +7,9 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\InternalAPI\InternalAPI.csproj" />
+      <Reference Include="InternalAPI">
+        <HintPath>..\InternalAPI\bin\Debug\net10.0\InternalAPI.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>
