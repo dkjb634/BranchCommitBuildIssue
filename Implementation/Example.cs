@@ -3,7 +3,7 @@
 namespace Implementation;
 
 public class Example: IExample {
-	public ExampleReturnRecord GetExampleReturnRecord()
+	public ExampleReturnRecord GetExampleReturnRecord(string argument)
 	{
 		Console.WriteLine("QWE");
 		return new ExampleReturnRecord("QWE");
